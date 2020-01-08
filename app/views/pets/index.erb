@@ -1,1 +1,15 @@
-index.erb
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+
+<body>
+<% @pets.each do |pet| %>
+    <p><%=pet.name %></p>
+    <p><%=pet.owner %></p><br>
+<%end%>
+</body>
+
+</html>
