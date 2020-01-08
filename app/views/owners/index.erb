@@ -1,1 +1,14 @@
-index.erb
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+
+<body>
+<% @owners.each do |owner| %>
+    <p><%=owner.name %></p>
+<%end%>
+</body>
+
+</html>
